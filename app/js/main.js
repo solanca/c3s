@@ -7,20 +7,20 @@ const nav = document.querySelector('.nav');
 const divValues = document.querySelector('.content__values');
 const lineWay = document.querySelector('#lineWay');
 const carouselItems = {
-    'golos': {
-        'title': 'Golos.io',
-        'tags': ['#Consulting', '#Customer Support'],
-        'urls': ['/digital-support.html', '/community-support.html']
+    'wallythewhale': {
+        'title': 'wallythewhale.xyz',
+        'tags': ['#Product Development', '#Customer Support'],
+        'urls': ['/product-development.html', '/community-support.html']
     },
-    'cyberFund': {
-        'title': 'Cyber Fund',
+    'seddona': {
+        'title': 'Seddona',
         'tags': ['#Digital Support', '#Product Development'],
         'urls': ['/digital-support.html', '/product-development.html']
     },
-    'satochiFund': {
-        'title': 'Satoshi.fund',
-        'tags': ['#Customer Support'],
-        'urls': ['/community-support.html']
+    'tifi': {
+        'title': 'TiFi Bank',
+        'tags': ['#Customer Support','#Product Development'],
+        'urls': ['/community-support.html','/product-development.html']
     },
     'daoCasino': {
         'title': 'Dao Casino',
