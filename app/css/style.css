@@ -214,7 +214,7 @@ body,html {
 }
 
 body {
-    background-image: linear-gradient(55deg,#010028,#280025 50%,#401d10);
+    background-image: linear-gradient(55deg,#010028,#030303 50%,#401d10);
     background-attachment: fixed
 }
 
@@ -821,8 +821,16 @@ body {
 }
 
 .content__span--color {
-    color: #FBB818;
+    color: #FFA5DC;
     display: block
+}
+
+.web3--color {
+    color: #8DD4FA;
+}
+
+.studio--color{
+    color:#FFF39E ;
 }
 
 .content__span--middle-size {
