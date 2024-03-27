@@ -291,12 +291,12 @@ body {
     width: 100%;
     height: 100%;
     z-index: 5;
-    background-image: linear-gradient(55deg,#010028,#280025 50%,#401d10)
+    background:rgb(5, 5, 5)
 }
 
 .loader__icon {
-    max-width: 300px;
-    width: 60%;
+    /* max-width: 300px;
+    width: 60%; */
     margin: auto;
     display: block
 }
