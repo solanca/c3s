@@ -1475,7 +1475,7 @@ body {
 }
 
 .btn--more,.btn--more:before {
-    background-image: linear-gradient(99deg,#ef3b24,#fbb818)
+    background-image: linear-gradient(99deg,#ef3b24,#F7E135)
 }
 
 .btn--more:after {
@@ -1758,7 +1758,7 @@ body {
 }
 
 .title--about {
-    background: -webkit-linear-gradient(35deg,#ef3b24 10%,#fbb818 90%);
+    background: -webkit-linear-gradient(35deg,#ef3b24 10%,#F7E135 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: fit-content;
