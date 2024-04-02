@@ -1,3 +1,9 @@
+:root {
+    --gray: #1E1E1E;
+    --yellow: #F7E135;
+    --blue: #0098FF;
+}
+
 .tns-gallery,.tns-no-calc {
     position: relative;
     left: 0
@@ -214,7 +220,7 @@ body,html {
 }
 
 body {
-    background-image: linear-gradient(55deg,#010028,#030303 50%,#401d10);
+    background-image: linear-gradient(55deg,#1E1E1E,#030303 50%,#1E1E1E);
     background-attachment: fixed
 }
 
@@ -250,8 +256,8 @@ body {
 
 .container--contacts {
     padding: 30px 10px 35px;
-    border-top: 1px solid #EF3B24;
-    border-bottom: 1px solid #EF3B24
+    border-top: 1px solid #0098FF;
+    border-bottom: 1px solid #0098FF
 }
 
 .container--about {
@@ -270,13 +276,13 @@ body {
 }
 
 .container__inside-pages--custom {
-    border: 1px solid #EF3B24
+    border: 1px solid #0098FF
 }
 
 .container__img {
     background-color: #220025;
     background-image: linear-gradient(151deg,rgba(239,59,36,.3),rgba(85,24,16,.3));
-    border-right: 1px solid #EF3B24;
+    border-right: 1px solid #0098FF;
     padding: 5%;
     min-width: 175px;
     display: flex;
@@ -314,7 +320,7 @@ body {
     transition-property: stroke-dasharray,stroke-dashoffset;
     transition-duration: .5s;
     transition-timing-function: ease-in-out;
-    stroke: #FBB818;
+    stroke: #0098FF;
     stroke-width: 6px;
     stroke-dasharray: 1100;
     stroke-dashoffset: 1200;
@@ -455,7 +461,7 @@ body {
     }
 
     .container__img {
-        border: 1px solid #EF3B24;
+        border: 1px solid #0098FF;
         width: 50%;
         justify-content: center;
         margin: 0 auto
@@ -647,12 +653,12 @@ body {
 }
 
 .icon--hex:before {
-    color: #EF3B24
+    color: var(--blue)
 }
 
 .icon--hex:hover:before {
     transition: .5s linear;
-    color: #FBB818
+    color: var(--yellow)
 }
 
 .icon--big {
@@ -661,12 +667,12 @@ body {
 }
 
 .icon--big:before {
-    color: #EF3B24
+    color: #0098FF
 }
 
 .icon--big:hover:before {
     transition: .5s linear;
-    color: #FBB818
+    color: #0098FF
 }
 
 .icon--gradient-hex {
@@ -845,14 +851,14 @@ body {
 .content__span--decorated:before {
     top: -1px;
     left: -3px;
-    background-color: #EF3B24;
+    background-color: #0098FF;
     padding: 2px 4px
 }
 
 .content__span--decorated:after {
     top: 3px;
     left: 0;
-    border: 1px solid #EF3B24;
+    border: 1px solid #0098FF;
     padding: 1px 3px
 }
 
@@ -1127,7 +1133,7 @@ body {
     left: 5px;
     top: 8px;
     border: 4px solid transparent;
-    border-top: 4px solid #FBB818
+    border-top: 4px solid #0098FF
 }
 
 .scroll__text {
@@ -1156,7 +1162,7 @@ body {
     position: fixed;
     display: none;
     z-index: 3;
-    background-color: #EF3B24;
+    background-color: #0098FF;
     width: 225px;
     height: 100%;
     right: 0;
@@ -1284,7 +1290,7 @@ body {
 }
 
 .hex__text {
-    color: #FBB818;
+    color: #0098FF;
     font-size: 14px;
     letter-spacing: 1px
 }
@@ -1473,7 +1479,7 @@ body {
 }
 
 .btn--more:after {
-    border-color: #FBB818
+    border-color: #0098FF
 }
 
 .btn--more:active:before,.btn--more:hover:before {
@@ -1517,7 +1523,7 @@ body {
 }
 
 .btn--social {
-    border: 1px solid #EF3B24;
+    border: 1px solid #0098FF;
     border-radius: 5px;
     padding: 0;
     width: 25px;
@@ -1542,7 +1548,7 @@ body {
 }
 
 .btn--carousel {
-    border: 1px solid #FBB818;
+    border: 1px solid 0098FF;
     transform: none;
     font-size: 16px;
     border-radius: 5px;
@@ -1677,7 +1683,7 @@ body {
     background-color: transparent;
     transition: background-color 250ms ease-in;
     font-size: 1.5rem;
-    color: #EF3B24;
+    color: #0098FF;
     transition-property: background-color,color;
     transition-duration: 250ms;
     transition-timing-function: ease-in-out;
@@ -1707,7 +1713,7 @@ body {
 }
 
 .partner__shape {
-    stroke: #EF3B24;
+    stroke: #0098FF;
     stroke-width: 2px;
     stroke-linecap: round;
     fill: transparent;
@@ -1728,7 +1734,7 @@ body {
 }
 
 .title {
-    color: rgba(255,255,255,.25);
+    color: rgba(247,225,53,.25);
     font-size: 72px;
     font-family: 'Roboto Condensed',Roboto,Arial,Helvetica,sans-serif;
     font-style: italic;
@@ -1974,7 +1980,7 @@ body {
     content: '';
     height: 3px;
     width: 40%;
-    background-color: #EF3B24;
+    background-color: #0098FF;
     margin-bottom: 15px
 }
 

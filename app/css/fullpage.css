@@ -161,7 +161,7 @@ html.fp-enabled,.fp-enabled body {
 }
 
 #fp-nav ul li a.active span,#fp-nav ul li:hover a.active span,#fp-nav ul li a.active span:before,#fp-nav ul li a.active span:after {
-    background-color: #FBB818
+    background-color: #0098FF
 }
 
 #fp-nav ul li a span {
