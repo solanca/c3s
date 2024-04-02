@@ -832,11 +832,11 @@ body {
 }
 
 .web3--color {
-    color: #8DD4FA;
+    color: var(--blue);
 }
 
 .studio--color{
-    color:#FFF39E ;
+    color:var(--yellow) ;
 }
 
 .content__span--middle-size {
@@ -1491,11 +1491,11 @@ body {
 }
 
 .btn--fb:before {
-    background-color: #107CB5
+    background-color: #0098FF
 }
 
 .btn--fb:after {
-    border-color: #107CB5
+    border-color: #0098FF
 }
 
 .btn--fb:active:before,.btn--fb:hover:before {
@@ -1507,11 +1507,11 @@ body {
 }
 
 .btn--twitter:before {
-    background-color: #00CEFF
+    background-color: #F7E135
 }
 
 .btn--twitter:after {
-    border-color: #00CEFF
+    border-color: #F7E135
 }
 
 .btn--twitter:active:before,.btn--twitter:hover:before {
