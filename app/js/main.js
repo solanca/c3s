@@ -78,7 +78,7 @@ function isElementInViewport(el) {
 }
 var topContentChanger = function() {
     let settings = {
-        tags: ["#decentralization", "#artificialintelligence", "#blockchain", "#robonomics", "#virtualreality"],
+        tags: ["#custom", "#blockchain", "#smart-contract", "#web", "#marketplace"],
         images: ["we_are_decentralization.svg", "we_are_AI.svg", "we_are_blockchain.svg", "we_are_robonomics.svg", "we_are_VR.svg"],
     }
     var interval;
