@@ -1625,7 +1625,7 @@ body {
 }
 
 .carousel__hex {
-    background: url(../img/carousel-item.png) center no-repeat;
+    background: url(../img/carousel_item.webp) center no-repeat;
     background-size: contain;
     padding: 15px;
     text-align: center;

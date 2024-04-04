@@ -22,11 +22,12 @@ const carouselItems = {
         'tags': ['#Customer Support','#Product Development'],
         'urls': ['/community-support.html','/product-development.html']
     },
-    'daoCasino': {
-        'title': 'Dao Casino',
-        'tags': ['#Communication Strategy'],
-        'urls': ['/digital-strategy.html']
+    'superyeti': {
+        'title': 'Super Yeti',
+        'tags': ['#Product Development'],
+        'urls': ['/product-development.html']
     },
+    // TODO: more link 
     'aira': {
         'title': 'AiraLab',
         'tags': ['#Digital Support'],
