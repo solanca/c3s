@@ -1624,8 +1624,40 @@ body {
     transform: translateX(-5px)
 }
 
-.carousel__hex {
+.empty {
     background: url(../img/carousel_item.webp) center no-repeat;
+    background-size: contain;
+    padding: 15px;
+    text-align: center;
+    margin: 0 10px;
+    display: block
+}
+ .whally {
+    background: url(../img/whally.webp) center no-repeat;
+    background-size: contain;
+    padding: 15px;
+    text-align: center;
+    margin: 0 10px;
+    display: block
+}
+ .seddona {
+    background: url(../img/seddona.webp) center no-repeat;
+    background-size: contain;
+    padding: 15px;
+    text-align: center;
+    margin: 0 10px;
+    display: block
+}
+ .tifi {
+    background: url(../img/tifi.webp) center no-repeat;
+    background-size: contain;
+    padding: 15px;
+    text-align: center;
+    margin: 0 10px;
+    display: block
+}
+ .superyeti {
+    background: url(../img/superyeti.webp) center no-repeat;
     background-size: contain;
     padding: 15px;
     text-align: center;
@@ -1742,7 +1774,7 @@ body {
     text-align: center;
     margin-bottom: 50px;
     line-height: 1;
-    text-shadow: 0 4px 1px rgba(247,225,53,0.8); 
+    text-shadow: 0 1px 1px rgba(247,225,53,0.8); 
 }
 
 .title--custom {
