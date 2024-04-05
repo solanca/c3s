@@ -9,30 +9,30 @@ const lineWay = document.querySelector('#lineWay');
 const carouselItems = {
     'wallythewhale': {
         'title': 'wallythewhale.xyz',
-        'tags': ['#Product Development', '#Customer Support'],
+        'tags': ['#Web Development', '#Design',"#Launch Support","#SPLtoken Development"],
         'urls': ['/product-development.html', '/community-support.html']
     },
     'seddona': {
         'title': 'Seddona',
-        'tags': ['#Digital Support', '#Product Development'],
+        'tags': ['#Desktop Development', '#SDK development'],
         'urls': ['/digital-support.html', '/product-development.html']
     },
     'tifi': {
         'title': 'TiFi Bank',
-        'tags': ['#Customer Support','#Product Development'],
+        'tags': ['#Web Development','#Smart Contract Development'],
         'urls': ['/community-support.html','/product-development.html']
     },
     'superyeti': {
         'title': 'Super Yeti',
-        'tags': ['#Product Development'],
+        'tags': ['#NFT Development','#Smart Contract Development','#EVM'],
         'urls': ['/product-development.html']
     },
-    // TODO: more link 
-    'aira': {
-        'title': 'AiraLab',
-        'tags': ['#Digital Support'],
+    'goons': {
+        'title': 'Goons NFT',
+        'tags': ['#NFT Support','#Discord Support'],
         'urls': ['/digital-support.html']
     },
+    // TODO: more link 
     'pandora': {
         'title': 'Pandora Boxchain',
         'tags': ['#Digital Support'],

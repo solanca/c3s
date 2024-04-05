@@ -1664,6 +1664,14 @@ body {
     margin: 0 10px;
     display: block
 }
+.goons {
+    background: url(../img/goons.webp) center no-repeat;
+    background-size: contain;
+    padding: 15px;
+    text-align: center;
+    margin: 0 10px;
+    display: block
+}
 
 .carousel__brand {
     height: 120px;
